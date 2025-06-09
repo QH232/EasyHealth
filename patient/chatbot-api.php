@@ -10,7 +10,7 @@ if (!$role || !$prompt) {
     exit;
 }
 
-$secretKey = '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';
+$secretKey = 'YOUR API KEY';
 $endpoint = 'https://api.groq.com/openai/v1/chat/completions';
 
 $data = [
