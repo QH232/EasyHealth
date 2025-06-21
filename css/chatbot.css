@@ -1,29 +1,22 @@
-body {
-  background: linear-gradient(135deg, #1976d2 0%, #2196f3 100%);
-  margin: 0;
-  font-family: 'Inter', Arial, sans-serif;
-}
-
-.chatbot-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.chatbot-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
 }
 
 .chatbot-title {
   font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 1.5rem;
-  color: #fff;
+  color: #333;
   text-align: center;
   letter-spacing: 1px;
-  text-shadow: 0 2px 8px rgba(25, 118, 210, 0.15);
+  text-shadow: none;
 }
 
 .chatbot-title .easy {
-  color: #fff;
+  color: #1976d2;
   font-weight: 900;
 }
 
@@ -37,7 +30,7 @@ body {
   display: block;
   font-size: 1.1rem;
   font-weight: 500;
-  color: #e3f0ff;
+  color: #555;
   margin-top: 0.2rem;
   letter-spacing: 0.5px;
 }
